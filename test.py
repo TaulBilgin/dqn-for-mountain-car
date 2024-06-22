@@ -49,7 +49,7 @@ out_actions = 3
 policy_dqn = DQN(in_states, h1_nodes, h2_nodes, out_actions).to(device)
 
 # Load the trained model weights
-policy_dqn.load_state_dict(torch.load("mountion_car_dql_128.pt"))
+policy_dqn.load_state_dict(torch.load("your model name "))
 
 # Switch the model to evaluation mode
 policy_dqn.eval()
